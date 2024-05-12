@@ -1,0 +1,55 @@
+header {
+    background-color: #7C5E99;
+}
+nav {
+    /*Todas TAG tem o DISPLAY INLINE por padrão*/
+    text-align: right
+}
+a { /*Essa tag em CSS, referencia todas tag's <a> da page.*/
+    color: #fff; /*Aqui se muda a cor da tag, nesse caso cor do texto.*/
+    font-size: 20px; /*Aqui se muda tamanho da fonte*/
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: "500";
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#Padawan {
+font-style: normal;
+}
+
+#button {
+    display: inline; /*Não define WIDGTH and HEIGTH*, A caixa é do tamanho da TAG PAI e fica tudo em LINHA/
+    /* OU */
+    display: block; /*Define WIDGTH, HEIGTH, LEFT and RIGTH, A caixa é do tamanho definido, os elementos NÃO ficam na mesma LINHA,
+    fica um em 
+    baixo 
+    do 
+    outro*/
+    /* OU */
+    display: inline-block; /*Define WIDGTH, HEIGTH, LEFT and RIGTH, A caixa é do tamanho definido, os elementos ficam na mesma LINHA.
+    Aqui temos 2 valores, o de FORA e o DENTRO, sendo assim, de FORA se comporta como INLINE.
+    O de DENTRO se comporta como BLOCK. */
+    background-color: #F25A70;
+    height: 60px;
+    line-height: 60px;
+    padding: 18px 20px 18px 20px; /*forma resumida sendo; -TOP.px -RIGTH.px -BOTTOM.px -LEFTH.px*/
+    /* OU */
+    padding: 18px 20px 12px; /*forma resumida sendo; -TOP.px -RIGTH and LEFTH.px -BOTTOM.px*/
+    /* OU */
+    padding: 18px 20px; /*forma resumida sendo; -TOP and BOTTOM.px -RIGTH and LEFTH.px*/
+    /* OU */
+    padding: 20px; /*forma resumida sendo; 20px -TOP and RIGTH and BOTTOM and LEFTH*/
+    /* OU */
+    padding-top: 18px; /*forma detalhada*/ 
+    padding-bottom: 18px; /*forma detalhada*/
+    padding-left: 20px; /*forma detalhada*/
+    padding-right: 20px; /*forma detalhada*/
+    /*como o CSS funciona em casacata, o que valeria nesse codigo seria a ultima forma especificada*/
+
+    box-shadow: 5px 5px 0px #000; /*Sombra da caixa com display em inline-block. 
+    Sequencia de valores: width, heigth, blur radius, color */
+}
+
+/*MARGIN: Respiro/Espaço externo.
+PADDING: Respiro/Espaço interno.*/ 
