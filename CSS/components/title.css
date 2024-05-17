@@ -1,18 +1,19 @@
 
-h1  {
+h1 {
     font-family: "Press Start 2P", sans-serif;
+    color: #F18805;
     font-size: 40px;
     text-shadow: 5px 5px 0px #000;
 
 
-
+    /*
     display: inline-flex;
     align-items: center;
-    color: #F18805;
     background-color: #3A4042;
     height: 184px;
     width: 627px;
     padding-right: 20px;
     padding-left: 20px;
     box-shadow: 5px 5px 0px #000;
+    */
 }
