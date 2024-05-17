@@ -8,4 +8,10 @@
 
 #box h1 {
     margin-bottom: 28px;
+
+    background-color: #3A4042;
+    height: 184px;
+    width: 630px;
+    box-shadow: 10px 10px 0px #000 ;
+
 }
