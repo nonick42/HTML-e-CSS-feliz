@@ -1,0 +1,21 @@
+.action { 
+    display: inline-flex;
+    align-items: center;
+    color: #000; 
+    font-size: 20px; 
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.action::before {
+    content: "";
+    background-color: #F18805; 
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.action:hover {
+    transform: scale(1.04);
+}
