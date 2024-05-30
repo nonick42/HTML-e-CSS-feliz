@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3A4042;
+    background-color: #F18805;
     width: 280px;
     height: 280px;
     box-shadow: 10px 10px 0px #fff;
 }
 
-.card-project.-card-pintinho {
+.card-project.-card-minha-planilha {
 background-color: #7B9E89;
 }
