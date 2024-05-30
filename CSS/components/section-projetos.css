@@ -1,0 +1,11 @@
+.section-projetos {
+    background-color: #000;
+    padding-top: 50px;
+    
+    border-bottom: 10px solid #F0A202;
+    
+}
+
+.section-projetos .main-title {
+    margin-bottom: 60px;
+}
