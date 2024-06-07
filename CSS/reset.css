@@ -2,7 +2,7 @@ body {
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }
 
-body, img, h1, h2, h3 {
+body, img, h1, h2, h3, figure {
         margin: 0;
     }
     
@@ -10,4 +10,3 @@ button {
     border: none;
     font-family: inherit;
 } /*esse seletor de tag me parece ser lixo, pois não achei essa tag button no codigo*/
-

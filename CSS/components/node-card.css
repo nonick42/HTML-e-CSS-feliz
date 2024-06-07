@@ -1,0 +1,57 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/*MINHA SOLUÇÃO*/ /*
+.node-card::before {
+    content: "";
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 2.5px dashed #000;
+    transform: rotate(90deg) translateX(144%);
+} */
+
+
+/*SOLUÇÃO DO MARCO*/ 
+.node-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 2.5px dashed #000;
+    transform: rotate(90deg) translateX(-62%);
+    bottom: 140px;
+} 
+
+.node-card .title {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #D95D39;
+    margin-bottom: 50px;
+}
+
+.node-card .logo {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    border: 5px solid #000;
+    background-color: #F18805;
+}
+
+.node-card .logo.-padding-sides{
+  padding: 0px 15px;  
+    
+}
+
+.node-card .logo.-bg-white {
+    background-color: #fff;
+}
