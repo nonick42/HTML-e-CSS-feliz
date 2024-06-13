@@ -17,3 +17,7 @@
 .main-button:hover {
     transform: scale(1.07);
 }
+
+.main-button.-enviar {
+    width: 100%;
+}
