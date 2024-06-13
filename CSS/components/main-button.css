@@ -12,6 +12,7 @@
     font-weight: 600;
     text-decoration: none;
     color: #000;
+    cursor: pointer;
 }
 
 .main-button:hover {
@@ -20,4 +21,8 @@
 
 .main-button.-enviar {
     width: 100%;
+}
+
+.main-button.-enviar:hover {
+    transform: scale(1.01);
 }
