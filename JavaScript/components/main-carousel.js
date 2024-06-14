@@ -16,11 +16,11 @@ const ScrollCarousel = window.document.querySelector (".scroll-carousel");
 let MoveSide = 100;
 
 ButtonRigth.addEventListener("click", function() {
-    MoveSide = MoveSide + 100;
+    MoveSide = MoveSide - 100;
     ScrollCarousel.style = `transform: translateX(${MoveSide}px)`;
 });
 
 ButtonLeft.addEventListener("click", function() {
-    MoveSide = MoveSide - 100;
+    MoveSide = MoveSide + 100;
     ScrollCarousel.style = `transform: translateX(${MoveSide}px)`
 })
