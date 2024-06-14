@@ -12,3 +12,9 @@
     text-shadow: none;
     text-align: center;
 }
+
+.main-title.-footer {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 50;
+}
