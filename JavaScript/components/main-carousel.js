@@ -24,3 +24,5 @@ ButtonLeft.addEventListener("click", function() {
     MoveSide = MoveSide + 100;
     ScrollCarousel.style = `transform: translateX(${MoveSide}px)`
 })
+
+//teste p/primeiro commit apos reset do pc 
